@@ -20,7 +20,7 @@
         "issues": "https://github.com/evalprogram/evalpush/issues",
         "wiki": "https://github.com/evalprogram/evalpush/wiki",
         "source": "https://github.com/evalprogram/evalpush",
-        "docs": "https://github.com/evalprogram/evalpush/docs
+        "docs": "https://github.com/evalprogram/evalpush/docs"
     },
     "require": {
         "php": ">=5.4",
