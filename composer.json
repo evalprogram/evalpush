@@ -1,0 +1,35 @@
+{
+    "name": "evalprogram/evalpush",
+    "description": "This library enable the developer to send push notification on mobile devices powered by IOS or Android.",
+    "version": "0.1.0",
+    "type": "library",
+    "keywords": ["push", "notification", "apns", "gcm"],
+    "homepage": "https://github.com/evalprogram/evalpush",
+    "time": "2016-10-13",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eval Programs",
+            "email": "evalprogram@gmail.com",
+            "homepage": "https://github.com/evalprogram/evalpush",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@exemple.org",
+        "issues": "https://github.com/evalprogram/evalpush/issues",
+        "wiki": "https://github.com/evalprogram/evalpush/wiki",
+        "source": "https://github.com/evalprogram/evalpush",
+        "docs": "https://github.com/evalprogram/evalpush/docs
+    },
+    "require": {
+        "php":">=5.4",
+        "monolog/monolog": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eval\\Push\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    }
+}
